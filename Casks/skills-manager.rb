@@ -9,7 +9,7 @@ cask "skills-manager" do
 
   # Sparkle updates the app in place; brew shouldn't fight it.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Skills Manager.app"
 
